@@ -1,0 +1,8 @@
+divide(N, P) :- P mod N =:= 0.
+divide(N,P) :- P mod N\=0, N*N<P, N1 is N+1, divide(N1,P).
+prime(P):- \+divide(2,P).
+
+gcd(A,0,A).
+gcd(A,B,D) :- B>0, R is A mod B , gcd(B,R,D).
+
+coprime(X,Y) :- gcd(X,Y,1), prime(X), prime(Y).

@@ -1,0 +1,1798 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/thien/ontologies/2023/8/Music"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/thien/ontologies/2023/8/Music">
+    <Prefix name="" IRI="http://www.semanticweb.org/thien/ontologies/2023/8/Music"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guitar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Harmonica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Instrument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Piano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saxophone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Singer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Song"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Violin"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#BelongTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#MadeIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SingBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDrumis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFluteis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGuitaris"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHarmonicais"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOrganis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPianois"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSaxophoneis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasViolinis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ADayInTheLife"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acoustic-Guitar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acoustic-Piano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alto-Flute"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#America"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AnotherOneBitesTheDust"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Australia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BTS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BackInBlack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ballad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bass-Drum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bass-Flute"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bass-Guitar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bass-Harmonica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Billy-Joel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blues"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brazil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Canada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CarelessWhisper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Celion-Dion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#China"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chromatic_Harmonica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Classic-Guitar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Classical-Violin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Concert-Flute"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cymbals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diatonic-Harmonica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Digital-Piano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Disco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dynamite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Electric-Acoustic-Violin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Electric-Guitar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Electric-Organ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Electric-Piano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Electric-Violin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Enya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FakeLove"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Floor-Tom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#France"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Funk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#George-Michael"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Germany"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Giuseppe-Verdi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Grand-Piano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hatsune-Miku"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HazyMoon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HeartOfGold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hi-Hat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hip-hop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hà-Trần"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IKON"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InTheEnd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Japan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jazz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Korea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LaTraviata"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Led-Zeppelin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LightMyFire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Linkin-Park"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LoveMeDo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LoveScenario"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LầnCuối"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mexico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MyHeartWillGoOn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MùaHèĐẹpNhất"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Neil-Young"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ngọt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Opera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PetiteFleur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PianoMan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pipe-Organ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Queen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rock"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RockAndRoll"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rosé"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rush"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Russia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Senbonzakura"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sidney-Bechet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Snare-Drum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Soprano-Saxophone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TK-From-Ling-Tosite-Sigue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tenor-Saxophone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thailand"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The-Beatles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The-Doors"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tom-Tom-Drum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TomSawyer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#United-KingDom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VietNam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WeWillRockYou"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AC/DC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R&amp;B"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Drum"/>
+        <Class IRI="#Instrument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flute"/>
+        <Class IRI="#Instrument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guitar"/>
+        <Class IRI="#Instrument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Harmonica"/>
+        <Class IRI="#Instrument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organ"/>
+        <Class IRI="#Instrument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Piano"/>
+        <Class IRI="#Instrument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saxophone"/>
+        <Class IRI="#Instrument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Violin"/>
+        <Class IRI="#Instrument"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Song"/>
+        <NamedIndividual IRI="#ADayInTheLife"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guitar"/>
+        <NamedIndividual IRI="#Acoustic-Guitar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Piano"/>
+        <NamedIndividual IRI="#Acoustic-Piano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Flute"/>
+        <NamedIndividual IRI="#Alto-Flute"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#America"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Song"/>
+        <NamedIndividual IRI="#AnotherOneBitesTheDust"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Australia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singer"/>
+        <NamedIndividual IRI="#BTS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Song"/>
+        <NamedIndividual IRI="#BackInBlack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#Ballad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Drum"/>
+        <NamedIndividual IRI="#Bass-Drum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Flute"/>
+        <NamedIndividual IRI="#Bass-Flute"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guitar"/>
+        <NamedIndividual IRI="#Bass-Guitar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Harmonica"/>
+        <NamedIndividual IRI="#Bass-Harmonica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singer"/>
+        <NamedIndividual IRI="#Billy-Joel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#Blues"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Brazil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Canada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Song"/>
+        <NamedIndividual IRI="#CarelessWhisper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singer"/>
+        <NamedIndividual IRI="#Celion-Dion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#China"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Harmonica"/>
+        <NamedIndividual IRI="#Chromatic_Harmonica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guitar"/>
+        <NamedIndividual IRI="#Classic-Guitar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Violin"/>
+        <NamedIndividual IRI="#Classical-Violin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Flute"/>
+        <NamedIndividual IRI="#Concert-Flute"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Drum"/>
+        <NamedIndividual IRI="#Cymbals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Harmonica"/>
+        <NamedIndividual IRI="#Diatonic-Harmonica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Piano"/>
+        <NamedIndividual IRI="#Digital-Piano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#Disco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Song"/>
+        <NamedIndividual IRI="#Dynamite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Violin"/>
+        <NamedIndividual IRI="#Electric-Acoustic-Violin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guitar"/>
+        <NamedIndividual IRI="#Electric-Guitar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organ"/>
+        <NamedIndividual IRI="#Electric-Organ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Piano"/>
+        <NamedIndividual IRI="#Electric-Piano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Violin"/>
+        <NamedIndividual IRI="#Electric-Violin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singer"/>
+        <NamedIndividual IRI="#Enya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Song"/>
+        <NamedIndividual IRI="#FakeLove"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Drum"/>
+        <NamedIndividual IRI="#Floor-Tom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#France"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#Funk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singer"/>
+        <NamedIndividual IRI="#George-Michael"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Germany"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singer"/>
+        <NamedIndividual IRI="#Giuseppe-Verdi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Song"/>
+        <NamedIndividual IRI="#Gone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Drum"/>
+        <NamedIndividual IRI="#Gong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Piano"/>
+        <NamedIndividual IRI="#Grand-Piano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singer"/>
+        <NamedIndividual IRI="#Hatsune-Miku"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Song"/>
+        <NamedIndividual IRI="#HazyMoon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Drum"/>
+        <NamedIndividual IRI="#Hi-Hat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#Hip-hop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singer"/>
+        <NamedIndividual IRI="#Hà-Trần"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singer"/>
+        <NamedIndividual IRI="#IKON"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Song"/>
+        <NamedIndividual IRI="#InTheEnd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Japan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#Jazz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Korea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Song"/>
+        <NamedIndividual IRI="#LaTraviata"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singer"/>
+        <NamedIndividual IRI="#Led-Zeppelin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Song"/>
+        <NamedIndividual IRI="#LightMyFire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singer"/>
+        <NamedIndividual IRI="#Linkin-Park"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Song"/>
+        <NamedIndividual IRI="#LoveMeDo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Song"/>
+        <NamedIndividual IRI="#LoveScenario"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Song"/>
+        <NamedIndividual IRI="#LầnCuối"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Mexico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Song"/>
+        <NamedIndividual IRI="#MyHeartWillGoOn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Song"/>
+        <NamedIndividual IRI="#MùaHèĐẹpNhất"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singer"/>
+        <NamedIndividual IRI="#Neil-Young"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singer"/>
+        <NamedIndividual IRI="#Ngọt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#Opera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Song"/>
+        <NamedIndividual IRI="#PetiteFleur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Song"/>
+        <NamedIndividual IRI="#PianoMan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organ"/>
+        <NamedIndividual IRI="#Pipe-Organ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#Pop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singer"/>
+        <NamedIndividual IRI="#Queen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#Rap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#Rock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Song"/>
+        <NamedIndividual IRI="#RockAndRoll"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singer"/>
+        <NamedIndividual IRI="#Rosé"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singer"/>
+        <NamedIndividual IRI="#Rush"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Russia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Song"/>
+        <NamedIndividual IRI="#Senbonzakura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singer"/>
+        <NamedIndividual IRI="#Sidney-Bechet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Drum"/>
+        <NamedIndividual IRI="#Snare-Drum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saxophone"/>
+        <NamedIndividual IRI="#Soprano-Saxophone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Spain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singer"/>
+        <NamedIndividual IRI="#TK-From-Ling-Tosite-Sigue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saxophone"/>
+        <NamedIndividual IRI="#Tenor-Saxophone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Thailand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singer"/>
+        <NamedIndividual IRI="#The-Beatles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singer"/>
+        <NamedIndividual IRI="#The-Doors"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Drum"/>
+        <NamedIndividual IRI="#Tom-Tom-Drum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Song"/>
+        <NamedIndividual IRI="#TomSawyer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#United-KingDom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#VietNam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Song"/>
+        <NamedIndividual IRI="#WeWillRockYou"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singer"/>
+        <NamedIndividual IRI="#AC/DC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#R&amp;B"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#ADayInTheLife"/>
+        <NamedIndividual IRI="#Pop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#ADayInTheLife"/>
+        <NamedIndividual IRI="#Rock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeIn"/>
+        <NamedIndividual IRI="#ADayInTheLife"/>
+        <NamedIndividual IRI="#United-KingDom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#ADayInTheLife"/>
+        <NamedIndividual IRI="#The-Beatles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#ADayInTheLife"/>
+        <NamedIndividual IRI="#Classic-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#ADayInTheLife"/>
+        <NamedIndividual IRI="#Electric-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPianois"/>
+        <NamedIndividual IRI="#ADayInTheLife"/>
+        <NamedIndividual IRI="#Grand-Piano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#AnotherOneBitesTheDust"/>
+        <NamedIndividual IRI="#Disco"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#AnotherOneBitesTheDust"/>
+        <NamedIndividual IRI="#Funk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeIn"/>
+        <NamedIndividual IRI="#AnotherOneBitesTheDust"/>
+        <NamedIndividual IRI="#United-KingDom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#AnotherOneBitesTheDust"/>
+        <NamedIndividual IRI="#Queen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#AnotherOneBitesTheDust"/>
+        <NamedIndividual IRI="#Bass-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#AnotherOneBitesTheDust"/>
+        <NamedIndividual IRI="#Snare-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#AnotherOneBitesTheDust"/>
+        <NamedIndividual IRI="#Bass-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#AnotherOneBitesTheDust"/>
+        <NamedIndividual IRI="#Electric-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#BackInBlack"/>
+        <NamedIndividual IRI="#Rock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeIn"/>
+        <NamedIndividual IRI="#BackInBlack"/>
+        <NamedIndividual IRI="#Australia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#BackInBlack"/>
+        <NamedIndividual IRI="#AC/DC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#BackInBlack"/>
+        <NamedIndividual IRI="#Bass-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#BackInBlack"/>
+        <NamedIndividual IRI="#Snare-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#BackInBlack"/>
+        <NamedIndividual IRI="#Bass-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#BackInBlack"/>
+        <NamedIndividual IRI="#Electric-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#CarelessWhisper"/>
+        <NamedIndividual IRI="#Ballad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#CarelessWhisper"/>
+        <NamedIndividual IRI="#Pop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeIn"/>
+        <NamedIndividual IRI="#CarelessWhisper"/>
+        <NamedIndividual IRI="#Russia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#CarelessWhisper"/>
+        <NamedIndividual IRI="#George-Michael"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#CarelessWhisper"/>
+        <NamedIndividual IRI="#Bass-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#CarelessWhisper"/>
+        <NamedIndividual IRI="#Snare-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#CarelessWhisper"/>
+        <NamedIndividual IRI="#Acoustic-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#CarelessWhisper"/>
+        <NamedIndividual IRI="#Electric-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSaxophoneis"/>
+        <NamedIndividual IRI="#CarelessWhisper"/>
+        <NamedIndividual IRI="#Tenor-Saxophone"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#Celion-Dion"/>
+        <NamedIndividual IRI="#Rosé"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#Celion-Dion"/>
+        <NamedIndividual IRI="#Acoustic-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#Dynamite"/>
+        <NamedIndividual IRI="#Disco"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#Dynamite"/>
+        <NamedIndividual IRI="#Pop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeIn"/>
+        <NamedIndividual IRI="#Dynamite"/>
+        <NamedIndividual IRI="#Korea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#Dynamite"/>
+        <NamedIndividual IRI="#BTS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#Dynamite"/>
+        <NamedIndividual IRI="#Bass-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#Dynamite"/>
+        <NamedIndividual IRI="#Hi-Hat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#Dynamite"/>
+        <NamedIndividual IRI="#Snare-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#Dynamite"/>
+        <NamedIndividual IRI="#Acoustic-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#Dynamite"/>
+        <NamedIndividual IRI="#Bass-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#FakeLove"/>
+        <NamedIndividual IRI="#Hip-hop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#FakeLove"/>
+        <NamedIndividual IRI="#Pop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeIn"/>
+        <NamedIndividual IRI="#FakeLove"/>
+        <NamedIndividual IRI="#Korea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#FakeLove"/>
+        <NamedIndividual IRI="#BTS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#FakeLove"/>
+        <NamedIndividual IRI="#Bass-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#FakeLove"/>
+        <NamedIndividual IRI="#Snare-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#FakeLove"/>
+        <NamedIndividual IRI="#Acoustic-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#FakeLove"/>
+        <NamedIndividual IRI="#Bass-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPianois"/>
+        <NamedIndividual IRI="#FakeLove"/>
+        <NamedIndividual IRI="#Pipe-Organ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#Gone"/>
+        <NamedIndividual IRI="#Pop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeIn"/>
+        <NamedIndividual IRI="#Gone"/>
+        <NamedIndividual IRI="#Korea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#Gone"/>
+        <NamedIndividual IRI="#Rosé"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#Gone"/>
+        <NamedIndividual IRI="#Bass-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#Gone"/>
+        <NamedIndividual IRI="#Snare-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#Gone"/>
+        <NamedIndividual IRI="#Tom-Tom-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#Gone"/>
+        <NamedIndividual IRI="#Acoustic-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPianois"/>
+        <NamedIndividual IRI="#Gone"/>
+        <NamedIndividual IRI="#Acoustic-Piano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPianois"/>
+        <NamedIndividual IRI="#Gone"/>
+        <NamedIndividual IRI="#Electric-Piano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#HazyMoon"/>
+        <NamedIndividual IRI="#Pop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeIn"/>
+        <NamedIndividual IRI="#HazyMoon"/>
+        <NamedIndividual IRI="#Japan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#HazyMoon"/>
+        <NamedIndividual IRI="#Hatsune-Miku"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#HazyMoon"/>
+        <NamedIndividual IRI="#Bass-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#HazyMoon"/>
+        <NamedIndividual IRI="#Bass-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#HazyMoon"/>
+        <NamedIndividual IRI="#Classic-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPianois"/>
+        <NamedIndividual IRI="#HazyMoon"/>
+        <NamedIndividual IRI="#Acoustic-Piano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#HeartOfGold"/>
+        <NamedIndividual IRI="#Neil-Young"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHarmonicais"/>
+        <NamedIndividual IRI="#HeartOfGold"/>
+        <NamedIndividual IRI="#Diatonic-Harmonica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#InTheEnd"/>
+        <NamedIndividual IRI="#Rap"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#InTheEnd"/>
+        <NamedIndividual IRI="#Rock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeIn"/>
+        <NamedIndividual IRI="#InTheEnd"/>
+        <NamedIndividual IRI="#America"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#InTheEnd"/>
+        <NamedIndividual IRI="#Linkin-Park"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#InTheEnd"/>
+        <NamedIndividual IRI="#Bass-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#InTheEnd"/>
+        <NamedIndividual IRI="#Cymbals"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#InTheEnd"/>
+        <NamedIndividual IRI="#Snare-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#InTheEnd"/>
+        <NamedIndividual IRI="#Tom-Tom-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#InTheEnd"/>
+        <NamedIndividual IRI="#Bass-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#InTheEnd"/>
+        <NamedIndividual IRI="#Electric-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#LaTraviata"/>
+        <NamedIndividual IRI="#Opera"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeIn"/>
+        <NamedIndividual IRI="#LaTraviata"/>
+        <NamedIndividual IRI="#France"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#LaTraviata"/>
+        <NamedIndividual IRI="#Giuseppe-Verdi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPianois"/>
+        <NamedIndividual IRI="#LaTraviata"/>
+        <NamedIndividual IRI="#Grand-Piano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasViolinis"/>
+        <NamedIndividual IRI="#LaTraviata"/>
+        <NamedIndividual IRI="#Classical-Violin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#LightMyFire"/>
+        <NamedIndividual IRI="#Blues"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#LightMyFire"/>
+        <NamedIndividual IRI="#Rock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeIn"/>
+        <NamedIndividual IRI="#LightMyFire"/>
+        <NamedIndividual IRI="#America"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#LightMyFire"/>
+        <NamedIndividual IRI="#The-Doors"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#LightMyFire"/>
+        <NamedIndividual IRI="#Electric-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasOrganis"/>
+        <NamedIndividual IRI="#LightMyFire"/>
+        <NamedIndividual IRI="#Electric-Organ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#LoveMeDo"/>
+        <NamedIndividual IRI="#Pop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#LoveMeDo"/>
+        <NamedIndividual IRI="#Rock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeIn"/>
+        <NamedIndividual IRI="#LoveMeDo"/>
+        <NamedIndividual IRI="#United-KingDom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#LoveMeDo"/>
+        <NamedIndividual IRI="#The-Beatles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#LoveMeDo"/>
+        <NamedIndividual IRI="#Snare-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#LoveMeDo"/>
+        <NamedIndividual IRI="#Bass-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#LoveMeDo"/>
+        <NamedIndividual IRI="#Electric-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHarmonicais"/>
+        <NamedIndividual IRI="#LoveMeDo"/>
+        <NamedIndividual IRI="#Bass-Harmonica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHarmonicais"/>
+        <NamedIndividual IRI="#LoveMeDo"/>
+        <NamedIndividual IRI="#Diatonic-Harmonica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#LoveScenario"/>
+        <NamedIndividual IRI="#Ballad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#LoveScenario"/>
+        <NamedIndividual IRI="#Pop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeIn"/>
+        <NamedIndividual IRI="#LoveScenario"/>
+        <NamedIndividual IRI="#Korea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#LoveScenario"/>
+        <NamedIndividual IRI="#IKON"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#LoveScenario"/>
+        <NamedIndividual IRI="#Bass-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#LoveScenario"/>
+        <NamedIndividual IRI="#Cymbals"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#LoveScenario"/>
+        <NamedIndividual IRI="#Electric-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPianois"/>
+        <NamedIndividual IRI="#LoveScenario"/>
+        <NamedIndividual IRI="#Electric-Piano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#LầnCuối"/>
+        <NamedIndividual IRI="#Ballad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#LầnCuối"/>
+        <NamedIndividual IRI="#Rock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeIn"/>
+        <NamedIndividual IRI="#LầnCuối"/>
+        <NamedIndividual IRI="#VietNam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#LầnCuối"/>
+        <NamedIndividual IRI="#Ngọt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#LầnCuối"/>
+        <NamedIndividual IRI="#Bass-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#LầnCuối"/>
+        <NamedIndividual IRI="#Electric-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#MyHeartWillGoOn"/>
+        <NamedIndividual IRI="#Ballad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#MyHeartWillGoOn"/>
+        <NamedIndividual IRI="#Pop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeIn"/>
+        <NamedIndividual IRI="#MyHeartWillGoOn"/>
+        <NamedIndividual IRI="#America"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#MyHeartWillGoOn"/>
+        <NamedIndividual IRI="#Celion-Dion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#MyHeartWillGoOn"/>
+        <NamedIndividual IRI="#Snare-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFluteis"/>
+        <NamedIndividual IRI="#MyHeartWillGoOn"/>
+        <NamedIndividual IRI="#Concert-Flute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#MyHeartWillGoOn"/>
+        <NamedIndividual IRI="#Acoustic-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPianois"/>
+        <NamedIndividual IRI="#MyHeartWillGoOn"/>
+        <NamedIndividual IRI="#Grand-Piano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasViolinis"/>
+        <NamedIndividual IRI="#MyHeartWillGoOn"/>
+        <NamedIndividual IRI="#Classical-Violin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#MùaHèĐẹpNhất"/>
+        <NamedIndividual IRI="#Ballad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#MùaHèĐẹpNhất"/>
+        <NamedIndividual IRI="#Pop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeIn"/>
+        <NamedIndividual IRI="#MùaHèĐẹpNhất"/>
+        <NamedIndividual IRI="#VietNam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#MùaHèĐẹpNhất"/>
+        <NamedIndividual IRI="#Hà-Trần"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#MùaHèĐẹpNhất"/>
+        <NamedIndividual IRI="#Acoustic-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPianois"/>
+        <NamedIndividual IRI="#MùaHèĐẹpNhất"/>
+        <NamedIndividual IRI="#Grand-Piano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasViolinis"/>
+        <NamedIndividual IRI="#MùaHèĐẹpNhất"/>
+        <NamedIndividual IRI="#Classical-Violin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#PetiteFleur"/>
+        <NamedIndividual IRI="#Jazz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeIn"/>
+        <NamedIndividual IRI="#PetiteFleur"/>
+        <NamedIndividual IRI="#France"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#PetiteFleur"/>
+        <NamedIndividual IRI="#Sidney-Bechet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#PetiteFleur"/>
+        <NamedIndividual IRI="#Bass-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#PetiteFleur"/>
+        <NamedIndividual IRI="#Acoustic-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPianois"/>
+        <NamedIndividual IRI="#PetiteFleur"/>
+        <NamedIndividual IRI="#Grand-Piano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSaxophoneis"/>
+        <NamedIndividual IRI="#PetiteFleur"/>
+        <NamedIndividual IRI="#Soprano-Saxophone"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#PianoMan"/>
+        <NamedIndividual IRI="#Pop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#PianoMan"/>
+        <NamedIndividual IRI="#Rock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeIn"/>
+        <NamedIndividual IRI="#PianoMan"/>
+        <NamedIndividual IRI="#America"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#PianoMan"/>
+        <NamedIndividual IRI="#Billy-Joel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#PianoMan"/>
+        <NamedIndividual IRI="#Bass-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#PianoMan"/>
+        <NamedIndividual IRI="#Acoustic-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#PianoMan"/>
+        <NamedIndividual IRI="#Bass-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHarmonicais"/>
+        <NamedIndividual IRI="#PianoMan"/>
+        <NamedIndividual IRI="#Chromatic_Harmonica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPianois"/>
+        <NamedIndividual IRI="#PianoMan"/>
+        <NamedIndividual IRI="#Grand-Piano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSaxophoneis"/>
+        <NamedIndividual IRI="#PianoMan"/>
+        <NamedIndividual IRI="#Soprano-Saxophone"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#RockAndRoll"/>
+        <NamedIndividual IRI="#Blues"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#RockAndRoll"/>
+        <NamedIndividual IRI="#Rock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeIn"/>
+        <NamedIndividual IRI="#RockAndRoll"/>
+        <NamedIndividual IRI="#America"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#RockAndRoll"/>
+        <NamedIndividual IRI="#Led-Zeppelin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#RockAndRoll"/>
+        <NamedIndividual IRI="#Bass-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#RockAndRoll"/>
+        <NamedIndividual IRI="#Hi-Hat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#RockAndRoll"/>
+        <NamedIndividual IRI="#Bass-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#RockAndRoll"/>
+        <NamedIndividual IRI="#Electric-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#Senbonzakura"/>
+        <NamedIndividual IRI="#Pop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeIn"/>
+        <NamedIndividual IRI="#Senbonzakura"/>
+        <NamedIndividual IRI="#Japan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#Senbonzakura"/>
+        <NamedIndividual IRI="#Hatsune-Miku"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#Senbonzakura"/>
+        <NamedIndividual IRI="#Bass-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#Senbonzakura"/>
+        <NamedIndividual IRI="#Electric-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasViolinis"/>
+        <NamedIndividual IRI="#Senbonzakura"/>
+        <NamedIndividual IRI="#Electric-Acoustic-Violin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#TomSawyer"/>
+        <NamedIndividual IRI="#Rock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeIn"/>
+        <NamedIndividual IRI="#TomSawyer"/>
+        <NamedIndividual IRI="#Canada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#TomSawyer"/>
+        <NamedIndividual IRI="#Rush"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#TomSawyer"/>
+        <NamedIndividual IRI="#Bass-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#TomSawyer"/>
+        <NamedIndividual IRI="#Tom-Tom-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#TomSawyer"/>
+        <NamedIndividual IRI="#Bass-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#TomSawyer"/>
+        <NamedIndividual IRI="#Electric-Guitar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#BelongTo"/>
+        <NamedIndividual IRI="#WeWillRockYou"/>
+        <NamedIndividual IRI="#Rock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeIn"/>
+        <NamedIndividual IRI="#WeWillRockYou"/>
+        <NamedIndividual IRI="#United-KingDom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SingBy"/>
+        <NamedIndividual IRI="#WeWillRockYou"/>
+        <NamedIndividual IRI="#Queen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <NamedIndividual IRI="#WeWillRockYou"/>
+        <NamedIndividual IRI="#Bass-Drum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <NamedIndividual IRI="#WeWillRockYou"/>
+        <NamedIndividual IRI="#Electric-Guitar"/>
+    </ObjectPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#BelongTo"/>
+        <ObjectProperty IRI="#BelongTo"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#MadeIn"/>
+        <ObjectProperty IRI="#MadeIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#SingBy"/>
+        <ObjectProperty IRI="#SingBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <ObjectProperty IRI="#hasDrumis"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasFluteis"/>
+        <ObjectProperty IRI="#hasFluteis"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <ObjectProperty IRI="#hasGuitaris"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasHarmonicais"/>
+        <ObjectProperty IRI="#hasHarmonicais"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasOrganis"/>
+        <ObjectProperty IRI="#hasOrganis"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPianois"/>
+        <ObjectProperty IRI="#hasPianois"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSaxophoneis"/>
+        <ObjectProperty IRI="#hasSaxophoneis"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasViolinis"/>
+        <ObjectProperty IRI="#hasViolinis"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#BelongTo"/>
+        <Class IRI="#Song"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#MadeIn"/>
+        <Class IRI="#Song"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SingBy"/>
+        <Class IRI="#Song"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <Class IRI="#Song"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFluteis"/>
+        <Class IRI="#Song"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <Class IRI="#Song"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHarmonicais"/>
+        <Class IRI="#Song"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOrganis"/>
+        <Class IRI="#Song"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPianois"/>
+        <Class IRI="#Song"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSaxophoneis"/>
+        <Class IRI="#Song"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasViolinis"/>
+        <Class IRI="#Song"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#BelongTo"/>
+        <Class IRI="#Type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#MadeIn"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SingBy"/>
+        <Class IRI="#Singer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDrumis"/>
+        <Class IRI="#Drum"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFluteis"/>
+        <Class IRI="#Flute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGuitaris"/>
+        <Class IRI="#Guitar"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHarmonicais"/>
+        <Class IRI="#Harmonica"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOrganis"/>
+        <Class IRI="#Organ"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPianois"/>
+        <Class IRI="#Piano"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSaxophoneis"/>
+        <Class IRI="#Saxophone"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasViolinis"/>
+        <Class IRI="#Violin"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

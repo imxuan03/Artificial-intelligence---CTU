@@ -1,0 +1,8 @@
+Red Green Blue
+WA NT SA
+NT WA SA Q
+Q NT SA NSW
+NSW SA Q V
+V SA NSW
+SA WA NT Q NSW V
+T V
